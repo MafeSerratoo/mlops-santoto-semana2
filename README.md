@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/35298634/README.md)
 # Estandarización de Pipelines y Control de Calidad de Datos
 
 **MLOps Santoto | Universidad Santo Tomás**  
