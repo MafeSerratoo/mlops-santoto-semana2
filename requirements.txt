@@ -1,0 +1,4 @@
+# Dependencias de entrenamiento y trazabilidad. El validador solo usa stdlib.
+scikit-learn==1.8.0
+joblib==1.5.3
+mlflow==3.6.0

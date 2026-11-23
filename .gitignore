@@ -1,0 +1,15 @@
+# Artefactos regenerables, datos y tracking local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+mlflow.db
+mlflow.db-*
+mlruns/
+mlartifacts/
+models/*.pkl
+results/*.json
+data/processed/*.csv
+.DS_Store
