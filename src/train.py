@@ -90,7 +90,7 @@ def main() -> None:
     ruta_train = RAIZ / "data/processed/train.csv"
     ruta_test = RAIZ / "data/processed/test.csv"
     modelo, metricas = entrenar_modelo(ruta_train, ruta_test, contrato)
-    # Si MLflow falla, no publicamos reportes que aparenten un registro exitoso.
+    # Registrar la ejecucion en MLflow antes de guardar los resultados locales.
     run_id = None if args.sin_mlflow else registrar_mlflow(modelo, metricas, contrato)
     (RAIZ / "models").mkdir(exist_ok=True)
     (RAIZ / "results").mkdir(exist_ok=True)
