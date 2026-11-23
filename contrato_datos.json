@@ -1,7 +1,7 @@
 {
   "contract_name": "iris_classifier_inference",
   "contract_version": "1.0.0",
-  "description": "Contrato oficial de entrada para inferencia del modelo Random Forest Iris. Las magnitudes estan expresadas en centimetros.",
+ "description": "Contrato de validacion de datos para el modelo de clasificacion Iris. Las medidas estan expresadas en centimetros.",
   "input_type": "object",
   "additional_properties": false,
   "required": ["sepal_length", "sepal_width", "petal_length", "petal_width"],
