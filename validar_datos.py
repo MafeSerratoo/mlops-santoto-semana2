@@ -1,7 +1,7 @@
 """Validador del contrato de Iris, SIN librerias externas.
 
 Usa exclusivamente modulos de la biblioteca estandar de Python.
-La funcion validar_registro puede reutilizarse antes de /predict en Semana 3.
+La funcion validar_registro permite validar registros individuales.
 """
 from __future__ import annotations
 
