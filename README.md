@@ -165,16 +165,7 @@ Para verificar que el control de calidad bloquea datos defectuosos, alterar una 
 - Error de MLflow o SQLite: comprobar permisos de escritura en el proyecto y que se ejecute desde su carpeta raíz.
 - No aparece `mlflow_run_id`: comprobar que se usó **sin** `--sin-mlflow` y que el entrenamiento terminó sin error.
 
-## 8. Publicación y entrega
-
-1. Crear o abrir **el repositorio personal de GitHub** e incorporar todos los archivos fuente de este proyecto (`git add .`, `git commit -m "feat: pipeline y calidad semana 2"`, `git push`). Verificar que `pipeline.py`, `validar_datos.py`, `contrato_datos.json` y `README.md` se ven desde una sesión sin iniciar.
-2. Crear en el Drive/SharePoint **académico** una carpeta llamada `MLOps_Santoto_Semana2_Evidencias` y colocar un documento `ENLACE_REPOSITORIO.txt` con la **URL real** de GitHub (opcionalmente añadir una copia del paquete ZIP de código, como respaldo).
-3. Configurar acceso de la carpeta en **Cualquier persona con el enlace → Lector** o la opción equivalente que permita ver sin solicitar autorización, respetando la política institucional. Confirmarlo en una ventana privada.
-4. Pegar esa URL de carpeta en la segunda página del Word con portada APA y subir **solo el Word** a “Estandarización de Pipelines y Control de Calidad de Datos”, apartado **Actuar** del campus.
-
-La carpeta debe contener un enlace al **repositorio propio**, no al repositorio oficial del docente. No copiar ni inventar URLs de GitHub o Drive.
-
-## 9. Referencias técnicas
+## 8. Referencias técnicas
 
 - DIALVEBE. (s. f.). *MLOps Open Source: Hands-on Lab* (Semana 2: Pipelines y Calidad). https://github.com/DIALVEBE/mlops-course-santoto/blob/main/index.md
 - MLflow. (s. f.). *MLflow tracking*. https://mlflow.org/docs/latest/ml/tracking/
